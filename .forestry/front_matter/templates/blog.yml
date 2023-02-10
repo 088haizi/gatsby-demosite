@@ -1,6 +1,18 @@
 ---
 label: blog
 hide_body: false
-fields: []
+fields:
+- name: cate
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: cate
 pages:
 - home/blog 1.md
