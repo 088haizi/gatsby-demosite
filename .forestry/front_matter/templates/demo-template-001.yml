@@ -18,3 +18,5 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- home/demo site 001.md
