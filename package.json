@@ -7,9 +7,10 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
+    "develop": "tinacms build && gatsby develop",
+    "dev": "tinacms dev -c \"gatsby develop\"",
+    "start": "tinacms build && gatsby develop",
+    "build": "tinacms build && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -19,5 +20,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tinacms": "^1.2.0"
+  },
+  "resolutions": {
+    "graphql": "15.8.0"
   }
 }
