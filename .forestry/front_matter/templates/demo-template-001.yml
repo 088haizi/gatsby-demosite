@@ -1,4 +1,20 @@
 ---
 label: demo template 001
 hide_body: true
-fields: []
+fields:
+- name: categories
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: categories
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
